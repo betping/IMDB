@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ActionBar">
+    <item android:id="@+id/type"
+        android:icon="@drawable/ic_menu_filter"
+        android:title="@string/menu1"
+        app:showAsAction="ifRoom" >
+        <menu>
+            <item android:id="@+id/mostPopular"
+                android:title="@string/menu2" />
+            <item android:id="@+id/upcomingMovies"
+                android:title="@string/menu3" />
+            <item android:id="@+id/latestMovies"
+                android:title="@string/menu4" />
+            <item android:id="@+id/nowPlaying"
+                android:title="@string/menu5" />
+            <item android:id="@+id/topRated"
+                android:title="@string/menu6" />
+        </menu>
+    </item>
+    <item android:id="@+id/myFavorite"
+        android:title="@string/menu7"
+        app:showAsAction="never" />
+    <item android:id="@+id/myWatchlist"
+        android:title="@string/menu8"
+        app:showAsAction="never" />
+    <item android:id="@+id/Refresh"
+        android:title="@string/menu9"
+        app:showAsAction="never" />
+
+</menu>

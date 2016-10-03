@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">IMDB</string>
+    <string name="menu1">options</string>
+    <string name="menu2">Most Popular</string>
+    <string name="menu3">Upcoming Movies</string>
+    <string name="menu4">Latest Movies</string>
+    <string name="menu5">Now Playing</string>
+    <string name="menu6">Top Rated</string>
+    <string name="menu7">My Favourite</string>
+    <string name="menu8">My Watchlist</string>
+    <string name="menu9">Refresh</string>
+    <string name="Popularity">Popularity : </string>
+</resources>
